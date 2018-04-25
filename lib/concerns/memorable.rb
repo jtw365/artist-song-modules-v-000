@@ -6,7 +6,7 @@ module Memorable
     end
 
     def self.count
-      @@songs.count || @@artists.count
+      @@songs.count
     end
 
   end
