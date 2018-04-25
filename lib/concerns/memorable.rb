@@ -1,3 +1,4 @@
+require 'pry'
 module Memorable
   module ClassMethods
 
@@ -6,7 +7,7 @@ module Memorable
     end
 
     def count
-      artists.count
+      artists.count 
     end
 
   end
