@@ -8,7 +8,7 @@ module Memorable
 
     def count
       # binding.pry
-      self.all.count
+      all.count
     end
 
   end
