@@ -2,7 +2,7 @@ module Memorable
   module ClassMethods
 
     def reset_all
-      Artist.all.clear
+      @@artists.clear
     end
 
     def count
