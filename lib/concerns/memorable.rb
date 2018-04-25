@@ -2,8 +2,7 @@ module Memorable
   module ClassMethods
 
     def self.reset_all
-      @@songs.clear
-      
+      @@songs.clear || @@artists.clear
     end
 
     def count
