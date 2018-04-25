@@ -9,6 +9,6 @@ module Memorable
       @@artists.count
       @@songs.count
     end
-  
+
   end
 end
