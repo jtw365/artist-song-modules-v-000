@@ -2,7 +2,7 @@ module Memorable
   module ClassMethods
 
     def self.reset_all
-      all.clear
+      self.all.clear
     end
 
     def count
