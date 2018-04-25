@@ -7,8 +7,8 @@ module Memorable
     end
 
     def count
-      binding.pry
-      artists.count
+      # binding.pry
+      self.all.count
     end
 
   end
