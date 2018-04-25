@@ -3,11 +3,11 @@ module Memorable
   module ClassMethods
 
     def reset_all
-      binding.pry
       all.clear
     end
 
     def count
+      binding.pry
       artists.count
     end
 
