@@ -1,5 +1,5 @@
 module Paramble
-  module InstanceClass
-  
+  module InstanceMethods
+
 
 end
