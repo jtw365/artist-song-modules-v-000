@@ -5,7 +5,7 @@ module Memorable
       self.all.clear
     end
 
-    def count
+    def self.count
 
       @@songs.count
     end
